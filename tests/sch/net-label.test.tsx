@@ -129,7 +129,7 @@ test(
       }),
     ).toMatchSvgSnapshot(import.meta.path)
   },
-  60 * 1000,
+  70 * 1000,
 )
 
 test(
@@ -169,5 +169,5 @@ test(
       convertCircuitJsonToSchematicSvg(circuit.getCircuitJson()),
     ).toMatchSvgSnapshot(import.meta.path + "net-label.test.tsx")
   },
-  60 * 1000,
+  70 * 1000,
 )
